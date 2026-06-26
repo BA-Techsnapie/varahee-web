@@ -313,3 +313,108 @@ footer .elements-social.social-icon-style-08 li:last-child {
     .yoga-and-meditation-slider-images {padding: 0 200px !important;}
     .yoga-and-meditation-slider-text {padding: 0 120px !important;}
 }
+/* ==========================================
+   Temple Mobile Header
+========================================== */
+
+.temple-logo{
+    display:flex;
+    flex-direction:column;
+    text-decoration:none;
+}
+
+.temple-logo span{
+    color:#ffb300;
+    font-size:26px;
+    font-weight:600;
+    line-height:1.2;
+    padding: 15px;
+}
+
+.temple-logo small{
+    color:#ffb300;
+    font-size:16px;
+    line-height:1;
+}
+
+@media(max-width:991px){
+
+    .temple-logo span{
+        font-size:18px;
+    }
+
+    .temple-logo small{
+        font-size:13px;
+    }
+}
+/* ==========================================
+   Hero Image Responsive
+========================================== */
+
+.hero-deity-img{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+    display:block;
+}
+
+/* Large Tablet */
+@media (max-width:1199px){
+
+    .hero-deity-img{
+        height:85vh;
+    }
+
+}
+
+/* Tablet */
+@media (max-width:991px){
+
+    .hero-deity-img{
+        height:70vh;
+        object-fit:contain;
+    }
+
+}
+
+/* Mobile */
+@media (max-width:767px){
+
+    .hero-deity-img{
+        height:auto;
+        object-fit:contain;
+        margin:0 auto;
+    }
+
+}
+
+/* Small Mobile */
+@media (max-width:480px){
+
+    .hero-deity-img{
+        width:85%;
+    }
+
+}
+/* Mobile Hero Image */
+.hero-deity-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+}
+
+/* Mobile (450 x 780) */
+@media (max-width: 480px) {
+    .hero-deity-img {
+                  /* Increase to zoom in */
+        height: 100vh;
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+    }
+}
+.tamil-font{
+    font-family: 'Noto Serif Tamil', serif;
+}
