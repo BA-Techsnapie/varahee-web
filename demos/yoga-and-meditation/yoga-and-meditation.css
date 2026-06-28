@@ -338,14 +338,25 @@ footer .elements-social.social-icon-style-08 li:last-child {
 }
 
 @media(max-width:991px){
+    .temple-logo{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
 
     .temple-logo span{
         font-size:18px;
+        
+
     }
 
     .temple-logo small{
         font-size:13px;
+        
     }
+    
 }
 /* ==========================================
    Hero Image Responsive
@@ -674,6 +685,7 @@ footer .elements-social.social-icon-style-08 li:last-child {
   display: inline-flex;
   align-items: center;
   margin-bottom: 13px;
+  margin-left: 10px;
 }
 
 .goog-te-gadget {
