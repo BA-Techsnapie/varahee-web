@@ -418,3 +418,143 @@ footer .elements-social.social-icon-style-08 li:last-child {
 .tamil-font{
     font-family: 'Noto Serif Tamil', serif;
 }
+/* ===========================
+      Temple Footer
+=========================== */
+
+.temple-footer{
+    background:#870000;
+    padding:70px 0 0;
+    color:#fff;
+}
+
+.footer-card{
+    border:1px solid rgba(255,255,255,.4);
+    border-radius:15px;
+    padding:35px 20px;
+}
+
+.footer-card h5{
+    color:#fff;
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+.footer-card p{
+    margin-bottom:5px;
+    font-size:18px;
+    color:#fff;
+}
+
+.footer-goddess-img{
+    width:190px;
+    border-radius:10px;
+}
+
+.payment-img{
+    width:380px;
+    max-width:100%;
+    background:#fff;
+    border-radius:15px;
+    padding:12px;
+}
+
+.footer-btn{
+
+    display:block;
+    width:100%;
+    padding:18px;
+
+    border:1px solid rgba(255,255,255,.5);
+
+    border-radius:15px;
+
+    text-align:center;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    margin-bottom:25px;
+
+    transition:.3s;
+
+    font-size:18px;
+
+}
+
+.footer-btn:hover{
+
+    background:#F4C430;
+
+    color:#870000;
+
+}
+
+.footer-bottom{
+
+    margin-top:60px;
+
+    background:#fff;
+
+    color:#000;
+
+    text-align:center;
+
+    padding:15px;
+
+    font-size:18px;
+
+}
+
+.footer-bottom strong{
+
+    color:#870000;
+
+}
+
+/* Mobile */
+
+@media(max-width:991px){
+
+    .footer-card{
+
+        margin-bottom:35px;
+
+    }
+
+    .footer-btn{
+
+        margin-bottom:15px;
+
+    }
+
+    .footer-goddess-img{
+
+        width:170px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .temple-footer{
+
+        padding-top:50px;
+
+    }
+
+    .footer-card{
+
+        padding:25px;
+
+    }
+
+    .footer-bottom{
+
+        font-size:15px;
+
+    }
+
+}
