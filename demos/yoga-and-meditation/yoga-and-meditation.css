@@ -325,10 +325,10 @@ footer .elements-social.social-icon-style-08 li:last-child {
 
 .temple-logo span{
     color:#ffb300;
-    font-size:26px;
+    font-size:20px;
     font-weight:600;
     line-height:1.2;
-    padding: 15px;
+    padding: 5px;
 }
 
 .temple-logo small{
@@ -665,3 +665,56 @@ footer .elements-social.social-icon-style-08 li:last-child {
     stroke: rgba(0,0,0,.45);  /* subtle outline */
     stroke-width: 3px;
   }
+  #google_translate_element {
+  display: inline-block;
+}
+
+/* Translate Widget Styling */
+#google_translate_element {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.goog-te-gadget {
+  font-family: inherit !important;
+  font-size: 0 !important; /* hides "Powered by Google" text */
+}
+
+.goog-te-gadget-simple {
+  background: transparent !important;
+  border: 1.5px solid #332e2e !important;
+  border-radius: 20px !important;
+  padding: 6px 12px !important;
+  font-size: 13px !important;
+  color: #332e2e!important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+.goog-te-gadget-simple span,
+.goog-te-gadget-simple .goog-te-menu-value span {
+  color: #332e2e !important;
+  font-weight: 600 !important;
+  border: none !important;
+  text-decoration: none !important;
+}
+
+/* Hide the ugly arrow image, use CSS arrow instead */
+.goog-te-gadget-simple img {
+  display: none !important;
+}
+
+.goog-te-gadget-simple::after {
+  content: "";
+  color: #332e2e;
+  font-size: 14px;
+}
+
+/* Dropdown menu styling */
+.goog-te-menu-frame {
+  border-radius: 10px !important;
+  box-shadow: 0 4px 20px rgba(200, 137, 10, 0.2) !important;
+}
