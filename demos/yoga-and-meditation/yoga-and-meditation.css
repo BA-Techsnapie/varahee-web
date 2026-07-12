@@ -725,3 +725,46 @@ footer .elements-social.social-icon-style-08 li:last-child {
   border-radius: 10px !important;
   box-shadow: 0 4px 20px rgba(200, 137, 10, 0.2) !important;
 }
+/* Temple Feature Cards */
+
+.temple-card{
+    background:#fff;
+    border-radius:15px;
+    padding:35px 25px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+    border-top:4px solid #c89b3c;
+}
+
+.temple-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.card-number{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:#8B0000;
+    color:#fff;
+    font-size:24px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 20px;
+}
+
+.temple-card h5{
+    color:#8B0000;
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+.temple-card p{
+    margin:0;
+    color:#555;
+    line-height:1.8;
+}
